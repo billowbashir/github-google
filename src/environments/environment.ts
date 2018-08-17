@@ -4,7 +4,9 @@
 
 export const environment = {
   production: false,
-    apiUrl: 'https://api.github.com/users/billowbashir',
+    apiUrl: 'https://api.github.com/users/',
+    // +?access_token=
+    token: 'f8497e6df5cb38e603dc25c8265e8a5dadbcc5ac'
 };
 
 /*

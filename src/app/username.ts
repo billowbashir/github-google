@@ -1,3 +1,3 @@
 export class Username {
-  public name: string , public login: string
+constructor  (public name: string , public login: string , public avatar_url: any) {}
 }
