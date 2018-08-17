@@ -19,8 +19,8 @@
     <!-- Collect the nav links, forms, and other content for toggling -->
     <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
       <ul class="nav navbar-nav navbar-right">
-        <li><a routerLink='/goals' routerLinkActive='active'>Usernames</a></li>
-        <li><a routerLink='/about' routerLinkActive='active'>Repositories</a></li>
+        <li><a routerLink='/username' routerLinkActive='active'>Usernames</a></li>
+        <li><a routerLink='/repositories' routerLinkActive='active'>Repositories</a></li>
 
       </ul>
 
@@ -28,6 +28,6 @@
   </div><!-- /.container-fluid -->
 </nav>
 </div>
-
-<span><app-username></app-username>
-<app-repositories></app-repositories></span>
+<router-outlet></router-outlet>
+<!-- <app-username></app-username> -->
+<!-- <app-repositories></app-repositories> -->
